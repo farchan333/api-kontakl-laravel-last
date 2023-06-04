@@ -6,6 +6,7 @@
 
 	class Kontak extends Model
 	{
+		protected $table = 'kontak';
 		protected $fillable = [
 			'nama',
 			'alamat',
